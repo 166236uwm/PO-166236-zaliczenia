@@ -2,7 +2,7 @@ package zadanie1;
 
 import java.util.Date;
 
-public class CordlessVacuumCleaner extends VacuumCleaner implements Cloneable {
+public class CordlessVacuumCleaner extends VacuumCleaner implements Cloneable, Named {
     private final int id;
     private Date dateOfProd = null;
 
