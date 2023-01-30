@@ -2,15 +2,12 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<>();
-        test.add("zzzzz");
-        test.add("abc");
-        test.add("abcd");
-        test.add("gh");
-        test.add("z");
+        ArrayList<Integer> test = new ArrayList<>();
+        test.add(4);
+        test.add(1);
+        test.add(13);
+        test.add(2);
+        test.add(0);
         System.out.println(Zadanie2.maksNatural(test));
-        System.out.println(test);
-        test.sort(null);
-        System.out.println(test);
     }
 }
